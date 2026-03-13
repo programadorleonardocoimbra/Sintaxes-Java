@@ -1,3 +1,4 @@
+package Conteúdo;
 // Variáveis armazenam valores na memória:
 
 // Variável "int" = Números Inteiros (ex: 10);

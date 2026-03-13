@@ -1,3 +1,4 @@
+package Conteúdo;
 // Os operadores realizam operações matemáticas ou lógicas.
 
 public class operadores {

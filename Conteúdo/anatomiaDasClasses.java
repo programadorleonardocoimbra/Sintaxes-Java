@@ -1,3 +1,4 @@
+package Conteúdo;
 // Toda aplicação Java é organizada em classes. 
 // Uma classe pode conter atributos (variáveis), métodos (funções) e Contrutores.
 // Nome da classe começa com letra maiúscula
