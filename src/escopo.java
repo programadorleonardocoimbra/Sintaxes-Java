@@ -1,4 +1,4 @@
-package Conteúdo;
+package src;
 /*
 Escopo define onde uma variável pode ser utilizada.
 Tipos de escopo:

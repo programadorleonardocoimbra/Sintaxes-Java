@@ -1,4 +1,4 @@
-package Conteúdo;
+package src;
 
 /* Métodos são funções dentro de uma classe.
    Eles servem para organizar e reutilizar código.
