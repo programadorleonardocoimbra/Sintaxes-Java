@@ -196,24 +196,25 @@ Escopo de bloco
 Java possui palavras reservadas, que não podem ser usadas como nomes de variáveis ou classes.
 Exemplos:
 
-class
-public
-private
-protected
-static
-void
-int
-double
-if
-else
-while
-for
-return
-new
-Exemplo inválido
-int class = 10; // ERRO
-Exemplo correto
-int numeroClasse = 10;
+- class
+- public
+- private
+- protected
+- static
+- void
+- int
+- double
+- if
+- else
+- while
+- for
+- return
+- new
+
+### Exemplo inválido
+- int class = 10; // ERRO
+### Exemplo correto
+- int numeroClasse = 10;
 
 ---------------------------------------------------------
 
