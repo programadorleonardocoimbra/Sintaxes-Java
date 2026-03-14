@@ -1,11 +1,11 @@
-# ☕ Sintaxe Java 
+# Sintaxe Java 
 
 Material de estudo sobre **sintaxe da linguagem Java**, contendo explicações e exemplos comentados para auxiliar no aprendizado dos principais conceitos da linguagem.
 Este projeto foi criado com o objetivo de servir como **guia de referência e portfólio de estudo**, abordando fundamentos essenciais da programação em Java.
 
 ---
 
-## 📚 Conteúdo do Projeto
+### Conteúdo do Projeto
 
 Este repositório apresenta exemplos práticos dos seguintes tópicos:
 
@@ -20,7 +20,7 @@ Este repositório apresenta exemplos práticos dos seguintes tópicos:
 
 ---
 
-# 1. Anatomia das Classes
+## 1. Anatomia das Classes
 
 Em Java, toda aplicação é estruturada em **classes**.
 
@@ -32,7 +32,7 @@ Uma classe pode conter:
 
 ### Exemplo
 
-```java
+java
 public class MinhaClasse {
 
     // Atributo da classe
@@ -60,11 +60,9 @@ O nome do arquivo deve ser igual ao nome da classe
 
 Exemplo:
 
-MinhaClasse.java
----------------------------------------------------------
 ---------------------------------------------------------
 
-📊 2. Tipos e Variáveis
+## 2. Tipos e Variáveis
 
 Variáveis são utilizadas para armazenar valores na memória.
 
@@ -97,9 +95,8 @@ public class TiposVariaveis {
 }
 
 ---------------------------------------------------------
----------------------------------------------------------
 
-➕ 3. Operadores
+## 3. Operadores
 
 Operadores são utilizados para realizar operações matemáticas e lógicas.
 
@@ -132,9 +129,8 @@ public class Operadores {
 }
 
 ---------------------------------------------------------
----------------------------------------------------------
 
-⚙️ 4. Métodos
+## 4. Métodos
 
 Métodos são funções dentro de uma classe que permitem organizar e reutilizar código.
 
@@ -161,9 +157,8 @@ public class Metodos {
 }
 
 ---------------------------------------------------------
----------------------------------------------------------
 
-🎯 5. Escopo
+## 5. Escopo
 
 O escopo define onde uma variável pode ser acessada dentro do código.
 
@@ -195,9 +190,8 @@ Escopo de método
 Escopo de bloco
 
 ---------------------------------------------------------
----------------------------------------------------------
 
-🔑 6. Palavras Reservadas
+## 6. Palavras Reservadas
 
 Java possui palavras reservadas, que não podem ser usadas como nomes de variáveis ou classes.
 Exemplos:
@@ -222,9 +216,8 @@ Exemplo correto
 int numeroClasse = 10;
 
 ---------------------------------------------------------
----------------------------------------------------------
 
-📖 7. JavaDoc
+## 7. JavaDoc
 
 JavaDoc é uma ferramenta utilizada para documentar o código Java.
 
@@ -252,9 +245,8 @@ Gerar documentação no terminal
 javadoc Calculadora.java
 
 ---------------------------------------------------------
----------------------------------------------------------
 
-💻 8. Terminal e Argumentos
+## 8. Terminal e Argumentos
 
 É possível passar argumentos ao executar um programa Java pelo terminal.
 
@@ -272,36 +264,14 @@ public class Argumentos {
     }
 
 }
-Compilar
-javac Argumentos.java
-Executar com argumentos
-java Argumentos Leonardo Java Estudo
-Saída esperada
-Argumentos recebidos:
-Leonardo
-Java
-Estudo
-📂 Estrutura do Projeto
-java-sintaxe-estudos
-│
-├── README.md
-│
-└── src
-    ├── AnatomiaClasses.java
-    ├── TiposVariaveis.java
-    ├── Operadores.java
-    ├── Metodos.java
-    ├── Escopo.java
-    ├── PalavrasReservadas.java
-    ├── Calculadora.java
-    └── Argumentos.java
-🚀 Objetivo
+---------------------------------------------------------------
 
-> Este projeto tem como objetivo:
+## Objetivo
+
+Este projeto tem como objetivo:
 > Consolidar os fundamentos da linguagem Java
 > Servir como material de revisão
 
-Compor um portfólio de estudos no GitHub
 
 👨‍💻 Autor: Leonardo Coimbra de Paiva ( 13/03/2026 )
 
