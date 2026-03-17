@@ -1,4 +1,4 @@
-☕️# Sintaxe Java 
+☕️ # Sintaxe Java 
 
 Material de estudo sobre **sintaxe da linguagem Java**, contendo explicações e exemplos comentados para auxiliar no aprendizado dos principais conceitos da linguagem.
 Este projeto foi criado com o objetivo de servir como **guia de referência e portfólio de estudo**, abordando fundamentos essenciais da programação em Java.
