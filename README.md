@@ -5,7 +5,7 @@ Este projeto foi criado com o objetivo de servir como **guia de referência e po
 
 ---
 
-### Conteúdo do Projeto
+### Conteúdo do Projeto 📝
 
 Este repositório apresenta exemplos práticos dos seguintes tópicos:
 
@@ -20,7 +20,7 @@ Este repositório apresenta exemplos práticos dos seguintes tópicos:
 
 ---
 
-## 1. Anatomia das Classes
+# 1. Anatomia das Classes 💀
 
 Em Java, toda aplicação é estruturada em **classes**.
 
@@ -30,7 +30,7 @@ Uma classe pode conter:
 - métodos (funções)
 - construtores
 
-### Exemplo
+### Exemplo ✏️
 
 java
 public class MinhaClasse {
@@ -52,7 +52,8 @@ modificador class NomeDaClasse {
     // métodos
 
 }
-Boas práticas
+
+#### Boas práticas
 
 O nome da classe deve começar com letra maiúscula
 
