@@ -185,11 +185,9 @@ public class Escopo {
 
 #### Tipos de escopo:
 
-Escopo de classe
-
-Escopo de método
-
-Escopo de bloco
+ - Escopo de classe
+ - Escopo de método
+ - Escopo de bloco
 
 ---------------------------------------------------------
 
