@@ -44,6 +44,7 @@ public class MinhaClasse {
     }
 
 }
+
 Estrutura básica
 modificador class NomeDaClasse {
 
@@ -63,7 +64,7 @@ Exemplo:
 
 ---------------------------------------------------------
 
-## 2. Tipos e Variáveis
+# 2. Tipos e Variáveis 🔢
 
 Variáveis são utilizadas para armazenar valores na memória.
 
@@ -97,7 +98,7 @@ public class TiposVariaveis {
 
 ---------------------------------------------------------
 
-## 3. Operadores
+# 3. Operadores➕➖✖️➗
 
 Operadores são utilizados para realizar operações matemáticas e lógicas.
 
@@ -131,7 +132,7 @@ public class Operadores {
 
 ---------------------------------------------------------
 
-## 4. Métodos
+# 4. Métodos ⚒️
 
 Métodos são funções dentro de uma classe que permitem organizar e reutilizar código.
 
@@ -159,7 +160,7 @@ public class Metodos {
 
 ---------------------------------------------------------
 
-## 5. Escopo
+# 5. Escopo 🔖
 
 O escopo define onde uma variável pode ser acessada dentro do código.
 
@@ -182,7 +183,7 @@ public class Escopo {
 
 }
 
-Tipos de escopo:
+#### Tipos de escopo:
 
 Escopo de classe
 
@@ -192,7 +193,7 @@ Escopo de bloco
 
 ---------------------------------------------------------
 
-## 6. Palavras Reservadas
+# 6. Palavras Reservadas 🔤🔡🔠
 
 Java possui palavras reservadas, que não podem ser usadas como nomes de variáveis ou classes.
 Exemplos:
@@ -219,7 +220,7 @@ Exemplos:
 
 ---------------------------------------------------------
 
-## 7. JavaDoc
+# 7. JavaDoc ☕️📝
 
 JavaDoc é uma ferramenta utilizada para documentar o código Java.
 
@@ -243,12 +244,13 @@ public class Calculadora {
     }
 
 }
+
 Gerar documentação no terminal
 javadoc Calculadora.java
 
 ---------------------------------------------------------
 
-## 8. Terminal e Argumentos
+# 8. Terminal e Argumentos 🧐💭
 
 É possível passar argumentos ao executar um programa Java pelo terminal.
 
@@ -266,16 +268,18 @@ public class Argumentos {
     }
 
 }
+
 ---------------------------------------------------------------
 
-## Objetivo
+## Objetivo 🎯
 
-Este projeto tem como objetivo:
+## Este projeto tem como objetivo:
+
 > Consolidar os fundamentos da linguagem Java
 > Servir como material de revisão
 
 
-👨‍💻 Autor: Leonardo Coimbra de Paiva ( 13/03/2026 )
+## 👨‍💻 Autor: Leonardo Coimbra de Paiva ( 13/03/2026 )
 
 Projeto desenvolvido para fins de estudo e prática em Java.
 Java Developer in Progress ☕
