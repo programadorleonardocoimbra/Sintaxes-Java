@@ -1,9 +1,8 @@
 # Sintaxe Java ☕️
 
-Material de estudo sobre **sintaxe da linguagem Java**, contendo explicações e exemplos comentados para auxiliar no aprendizado dos principais conceitos da linguagem.
-Este projeto foi criado com o objetivo de servir como **guia de referência e portfólio de estudo**, abordando fundamentos essenciais da programação em Java.
+*Material de estudo sobre **sintaxe da linguagem Java**, contendo explicações e exemplos comentados para auxiliar no aprendizado dos principais conceitos da linguagem.
+Este projeto foi criado com o objetivo de servir como **guia de referência e portfólio de estudo**, abordando fundamentos essenciais da programação em Java.*
 
----
 
 ### Conteúdo do Projeto 📝
 
@@ -18,12 +17,9 @@ Este repositório apresenta exemplos práticos dos seguintes tópicos:
 - JavaDoc
 - Terminal e Argumentos
 
----
-
-# 1. Anatomia das Classes 💀
+# 💀Anatomia das Classes 
 
 Em Java, toda aplicação é estruturada em **classes**.
-
 Uma classe pode conter:
 
 - atributos (variáveis)
@@ -32,9 +28,8 @@ Uma classe pode conter:
 
 ### Exemplo ✏️
 
-java
-public class MinhaClasse {
-
+    public class MinhaClasse {
+    
     // Atributo da classe
     String nome;
 
@@ -43,16 +38,13 @@ public class MinhaClasse {
         System.out.println("Olá Mundo!");
     }
 
-}
+        // atributos
 
-Estrutura básica
-modificador class NomeDaClasse {
+        // métodos
 
-    // atributos
+    }
 
-    // métodos
 
-}
 
 #### Boas práticas
 
@@ -60,28 +52,28 @@ O nome da classe deve começar com letra maiúscula
 
 O nome do arquivo deve ser igual ao nome da classe
 
-Exemplo:
 
----------------------------------------------------------
-
-# 2. Tipos e Variáveis 🔢
+# 🔢Tipos e Variáveis 
 
 Variáveis são utilizadas para armazenar valores na memória.
 
-Tipos Primitivos do Java
-Tipo	Descrição	Exemplo
-int	números inteiros	10
-double	números decimais	3.14
-char	caracteres	'A'
-boolean	verdadeiro ou falso	true
-byte	inteiro pequeno	127
-short	inteiro curto	1000
-long	inteiro grande	100000L
-float	número decimal	5.5f
-Exemplo
-public class TiposVariaveis {
+**Tipos Primitivos do Java**
+| Tipo	  |  Descrição	             |   Exemplo
+| :---    | :---                     | :---
+| int	  |  números inteiros	     |   10      |
+| double  |  números decimais	     |   3.14    |
+| char	  |  caracteres	             |   'A'     |
+| boolean |  verdadeiro ou falso     |   true    |
+| byte	  |  inteiro pequeno	     |   127     |
+| short	  |  inteiro curto	         |   1000    |
+| long	  |  inteiro grande	         |   100000L |
+| float	  |  número decimal	         |   5.5f    |
 
-    public static void main(String[] args) {
+
+**Exemplo**
+
+    public class TiposVariaveis {
+        public static void main(String[] args) {
 
         int idade = 25;
         double altura = 1.75;
@@ -92,13 +84,10 @@ public class TiposVariaveis {
         System.out.println("Altura: " + altura);
         System.out.println("Letra: " + letra);
         System.out.println("Estudante: " + estudante);
+        }
     }
 
-}
-
----------------------------------------------------------
-
-# 3. Operadores➕➖✖️➗
+# ➕➖✖️➗Operadores
 
 Operadores são utilizados para realizar operações matemáticas e lógicas.
 
@@ -109,10 +98,11 @@ Operador	Função
 *	multiplicação
 /	divisão
 %	resto da divisão
-Exemplo
-public class Operadores {
 
-    public static void main(String[] args) {
+**Exemplo**
+
+    public class Operadores {
+        public static void main(String[] args) {
 
         int a = 10;
         int b = 5;
@@ -132,13 +122,13 @@ public class Operadores {
 
 ---------------------------------------------------------
 
-# 4. Métodos ⚒️
+# ⚒️Métodos 
 
 Métodos são funções dentro de uma classe que permitem organizar e reutilizar código.
 
-Exemplo
-public class Metodos {
+**Exemplo**
 
+    public class Metodos {
     public static void main(String[] args) {
 
         saudacao();
@@ -160,14 +150,14 @@ public class Metodos {
 
 ---------------------------------------------------------
 
-# 5. Escopo 🔖
+# 🔖Escopo 
 
 O escopo define onde uma variável pode ser acessada dentro do código.
 
-Exemplo
-public class Escopo {
-
-    static int numero = 10; // variável de classe
+**Exemplo**
+ 
+    public class Escopo {
+      static int numero = 10; // variável de classe
 
     public static void main(String[] args) {
 
@@ -191,11 +181,10 @@ public class Escopo {
 
 ---------------------------------------------------------
 
-# 6. Palavras Reservadas 🔤🔡🔠
+# 🔤🔡🔠Palavras Reservadas 
 
 Java possui palavras reservadas, que não podem ser usadas como nomes de variáveis ou classes.
-Exemplos:
-
+**Exemplos:**
 - class
 - public
 - private
@@ -211,20 +200,21 @@ Exemplos:
 - return
 - new
 
-### Exemplo inválido
+**Exemplo inválido**🟥
 - int class = 10; // ERRO
-### Exemplo correto
+**Exemplo correto**🟩
 - int numeroClasse = 10;
 
 ---------------------------------------------------------
 
-# 7. JavaDoc ☕️📝
+# ☕️📝JavaDoc 
 
 JavaDoc é uma ferramenta utilizada para documentar o código Java.
 
 Ela permite gerar documentação automática em HTML.
 
-Exemplo
+**Exemplo**
+
 /**
  * Classe responsável por realizar operações matemáticas.
  */
@@ -248,14 +238,15 @@ javadoc Calculadora.java
 
 ---------------------------------------------------------
 
-# 8. Terminal e Argumentos 🧐💭
+# 🧐💭Terminal e Argumentos 
 
 É possível passar argumentos ao executar um programa Java pelo terminal.
 
-Exemplo
-public class Argumentos {
+**Exemplo**
 
-    public static void main(String[] args) {
+
+    public class Argumentos {
+        public static void main(String[] args) {
 
         System.out.println("Argumentos recebidos:");
 
@@ -271,13 +262,12 @@ public class Argumentos {
 
 ## Objetivo 🎯
 
-## Este projeto tem como objetivo:
+**Este projeto tem como objetivo:**
+ - Consolidar os fundamentos da linguagem Java
+ - Servir como material de revisão
 
-> Consolidar os fundamentos da linguagem Java
-> Servir como material de revisão
 
-
-## 👨‍💻 Autor: Leonardo Coimbra de Paiva ( 13/03/2026 )
+**👨‍💻 Autor:** *Leonardo Coimbra de Paiva* ( 13/03/2026 )
 
 Projeto desenvolvido para fins de estudo e prática em Java.
 Java Developer in Progress ☕
