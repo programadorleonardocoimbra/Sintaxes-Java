@@ -1,4 +1,4 @@
-<img width="1080" height="820" alt="Image" src="https://github.com/user-attachments/assets/d1b64955-d520-4d5b-8a2e-b6e93bbf4fee" />
+<img width="1018" height="467" alt="Image" src="https://github.com/user-attachments/assets/8809137e-454a-4d41-81bd-6d7f11882dd9" />
 
 # Sintaxe Java ☕️
 
